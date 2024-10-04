@@ -1,0 +1,7 @@
+n1 = input('Digite seu nome: ')
+numeroDeLetras = len(n1)
+print(f'Seu nome tem {numeroDeLetras} letras')
+NomeMaiusculo = n1.upper()
+NomeMinusculo = n1.lower()
+print (f'Seu nome com letras maiúsculas: {NomeMaiusculo}')
+print(f'Seu nome com letras minúsculas:  {NomeMinusculo} ')
